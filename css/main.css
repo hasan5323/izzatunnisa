@@ -38,12 +38,17 @@ header {
 
 main {
   margin-top: 30px;
-  background: #f7c08a;
 }
 
 footer {
   background-color: orange;
   color: #fff;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 /* utility classess*/
@@ -54,6 +59,13 @@ footer {
   padding: 0 20px;
 }
 
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
 .brand-text {
   color: #f7c08a;
 }
@@ -62,6 +74,7 @@ footer {
   font-size: 20px;
 }
 
+/*button*/
 .btn {
   display: inline-block;
   font-size: 18px;
@@ -70,6 +83,33 @@ footer {
   padding: 13px 20px;
   border: none;
   cursor: pointer;
+}
+
+.btn:hover {
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn-dark {
+  background: #333;
+  color: #f4f4f4;
+}
+
+/*background*/
+.bg-light {
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+.clr {
+  clear: both;
 }
 
 /* body > header > navbar */
@@ -132,9 +172,87 @@ footer {
   line-height: 1.5em;
 }
 /* body > main > home-info*/
+#home-info-1,
+#home-info-2,
+#home-info-3 {
+  height: 400px;
+}
+
+#home-info-1 .info-1-img {
+  float: left;
+  width: 50%;
+  background: url(../img/gallery/main/item1.png) no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info-1 .info-1-desc {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info-2 .info-2-img {
+  float: right;
+  width: 50%;
+  background: url(../img/gallery/main/item2.png) no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info-2 .info-2-desc {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info-3 .info-3-img {
+  float: left;
+  width: 50%;
+  background: url(../img/gallery/main/item4.png) no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info-3 .info-3-desc {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info-1 .info-1-desc p,
+#home-info-2 .info-2-desc p,
+#home-info-3 .info-3-desc p {
+  padding-bottom: 30px;
+}
 
 /* body > footer*/
+footer {
+  background: black;
+}
+
+footer > div > ul > li {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  list-style: none;
+}
+
+footer > div > ul > li > ul > li {
+  list-style: none;
+}
 
 footer.logo-facebook {
   background: url(../img/logo/logo-icon.png);
+}
+
+#copyright p {
+  text-align: center;
 }
