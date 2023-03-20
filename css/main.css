@@ -153,18 +153,12 @@ img {
 }
 
 #navbar ul li:hover ul {
-  display: block;
-  position: fixed;
-  left: auto;
+  display: none;
+  position: absolute;
+  left: a;
   width: 100px;
   margin-top: 1rem;
   color: #fff;
-}
-
-#navbar ul li:hover ul li {
-  display: block;
-  background-color: #444;
-  color: #f7c08a;
 }
 
 #navbar ul li a {
