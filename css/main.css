@@ -138,10 +138,43 @@ img {
   float: left;
 }
 
+#navbar ul li:hover {
+  cursor: pointer;
+  background-color: #444;
+  color: #f7c08a;
+}
+
+#navbar ul li:hover a {
+  color: #fff;
+}
+
+#navbar ul li ul {
+  display: none;
+}
+
+#navbar ul li:hover ul {
+  display: block;
+  position: fixed;
+  left: auto;
+  width: 100px;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+#navbar ul li:hover ul li {
+  display: block;
+  background-color: #444;
+  color: #f7c08a;
+}
+
 #navbar ul li a {
   display: block;
   padding: 20px;
   text-align: center;
+}
+
+#navbar ul li:hover ul li {
+  color: #fff;
 }
 
 #navbar ul li a:hover,
