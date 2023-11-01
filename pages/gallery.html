@@ -4,34 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="gallery berisi foto-foto kegiatan, bangunan kondisi Izzatunnisa">
+    <link rel="stylesheet" href="../css/main-styling.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <style>
+      .card-grid {
+        display: grid;
+      }
+      img {
+          width: 600px;
+          height: 400px;
+      }
+    </style>
     <title>
-      gallery berisi foto-foto kegiatan, bangunan kondisi Izzatunnisa
+      gallery | izzatunnisa
     </title>
   </head>
   <body>
     <header>
       <nav id="navbar">
-        <div class="container">
-          <h1 class="logo"><a href="index.html">IKV</a></h1>
-          <ul>
-            <li><a href="#" class="current">Beranda</a></li>
-            <li><a href="#">Tentang</a></li>
-            <li>
-              Services
-              <ul>
-                <li><a href="#">Kost</a></li>
-                <li><a href="#">paviliun</a></li>
-                <li><a href="#">Ruko</a></li>
-              </ul>
+        <h1 class="logo"><a href="index.html">IKV</a></h1>
+        <ul class="navbar-main">
+          <li class="navbar-item"><a  href="./index.html" class="current-page">Beranda</a></li>
+          <li class="navbar-item"><a  href="./tentang.html">Tentang</a></li>
+          <li class="navbar-item"><a  href="./blogs.html">Blogs</a></li>
+          <li class="dropdown navbar-item"><a href="#"> Layanan</a>
+            <ul class="dropdown-content">
+              <li class="dropdown-item"><a  href="./service-kost.html">Kost</a></li>
+              <li class="dropdown-item"><a  href="./service-paviliun.html">paviliun</a></li>
+              <li class="dropdown-item"><a  href="./service-ruko.html">Ruko</a></li>
+            </ul>
             </li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Paket&promo</a></li>
-            <li><a href="#">Pusat Bantuan</a></li>
-          </ul>
-        </div>
+          <li class="navbar-item"><a  href="./gallery.html">Gallery</a></li>
+          <li class="navbar-item"><a  href="./paket.html">Paket&promo</a></li>
+          <li class="navbar-item"><a  href="./contact.html">Pusat Bantuan</a></li>
+        </ul>
+    <!-- clear navbar float class -->
+    <div class="clr"></div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-img"><img src="../img/gallery/kost/cases1.jpg" alt=""></div>
+            <div class="card-desc"></div>
+          </div>
+          <div class="card-grid">
+            <div class="card">
+              <div class="card-img"><img src="../img/gallery/kost/cases2.jpg" alt=""></div>
+              <div class="card-desc"></div>
+            </div>
+            <div class="card-grid">
+              <div class="card">
+                <div class="card-img"><img src="../img/gallery/kost/cases3.jpg" alt=""></div>
+                <div class="card-desc"></div>
+              </div>
+              <div class="card-grid">
+                <div class="card">
+                  <div class="card-img"><img src="../img/gallery/kost/cases4.jpg" alt=""></div>
+                  <div class="card-desc"></div>
+                </div>
+                <div class="card-grid">
+                  <div class="card">
+                    <div class="card-img"><img src="../img/gallery/kost/cases5  .jpg" alt=""></div>
+                    <div class="card-desc"></div>
+                  </div>
+        </div>
+    </div>
+    </main>
     <footer>
       <div id="social-gallery"></div>
       <div id="copyright">
