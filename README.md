@@ -5,4 +5,7 @@ kost izzatunnisa berada di jl nuri kelurahan gonilan kecamatan kartasura sukohar
 awalnya web ini digunakan untuk menawarkan kos muslimah izzatunnisa 1. tapi karena sudah tidak diperlukan maka digunakan sebagai majalah muslimah (blog)
 
 
+https://hasan5323.github.io/izzatunnisa
+
+
 
